@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.project-box{
+text-align:center;
+margin-top:40px;
+}
+
+.project-card{
+background:white;
+width:350px;
+margin:auto;
+padding:25px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:transform 0.3s, box-shadow 0.3s;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
+
+.project-card a{
+display:inline-block;
+margin-top:15px;
+padding:10px 18px;
+background:#1a4fb5;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.project-card a:hover{
+background:#0f357f;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<img src="pfp.jpeg" width="120">
+<button onclick="toggleDarkMode()" class="dark-btn">🌙 Dark Mode</button>
+<h3>Aarsh Jain</h3>
+
+<a href="index1.html">About</a>
+<a href="index2.html">Education</a>
+<a href="index3.html">Skills</a>
+<a href="index4.html">Hobbies</a>
+<a href="index5.html">Projects</a>
+<a href="index6.html">Contact</a>
+
+</div>
+
+<div class="content">
+
+<h2 style="text-align:center;">Projects</h2>
+
+<div class="project-box">
+
+<div class="project-card">
+
+<p>
+Currently, these are some minor projects that I have worked on while learning 
+web development and programming.
+</p>
+
+<a href="https://app.netlify.com/teams/aarshjain113/projects" target="_blank">
+ Projects(Netlify)
+</a>
+
+<a href="https://vercel.com/aarsh-jains-projects" target="_blank">
+ Projects(Vercel)
+</a>
+
+<center><ul><li> Languages Known: HTML , CSS , C , C++. </li></ul> </center>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<script>
+function toggleDarkMode(){
+document.body.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>

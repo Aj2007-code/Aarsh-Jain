@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Education</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+.edu-box{
+margin-top:30px;
+}
+
+.edu-card{
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+transition:transform 0.3s, box-shadow 0.3s;
+}
+
+.edu-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 18px rgba(0,0,0,0.2);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="sidebar">
+
+<img src="pfp.jpeg" width="120">
+<button onclick="toggleDarkMode()" class="dark-btn">🌙 Dark Mode</button>
+<h3>Aarsh Jain</h3>
+
+<a href="index1.html">About</a>
+<a href="index2.html">Education</a>
+<a href="index3.html">Skills</a>
+<a href="index4.html">Hobbies</a>
+<a href="index5.html">Projects</a>
+<a href="index6.html">Contact</a>
+
+</div>
+
+<div class="content">
+
+<h2 style="text-align:center;">Education</h2>
+
+<div class="edu-box">
+
+<div class="edu-card">
+<h3>Undergraduate</h3>
+<ul>
+<li>Currently pursuing B.Tech in Chemical Engineering.</li>
+<li>1st Year Undergraduate Student.</li>
+<li>Indian Institute of Technology Patna.</li>
+<li>7.5 SPI in 1st SEM.</li>
+</ul>
+</div>
+
+<div class="edu-card">
+<h3>Class 12 (CBSE)</h3>
+<ul>
+<li>School: Aklank Public School, Kota, Rajasthan.</li>
+<li>Board: CBSE.</li>
+<li>Percentage: 88%.</li>
+</ul>
+</div>
+
+<div class="edu-card">
+<h3>JEE Preparation</h3>
+<ul>
+<li>Prepared for JEE at Allen Career Institute, Kota.</li>
+<li>Batch during Class 11: TNO1JP1.</li>
+<li>Batch during Class 12: TE01AC1.</li>
+<li>JEE Main Percentile: 98.03.</li>
+<li>JEE Advanced Rank: 13050.</li>
+</ul>
+</div>
+
+<div class="edu-card">
+<h3>Class 10 (CBSE)</h3>
+<ul>
+<li>School: Kailashpat Singhania High School.</li>
+<li>Location: Vijaygram, Chhindwara, Madhya Pradesh – 480108.</li>
+<li>Board: CBSE.</li>
+<li>Percentage: 95%.</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+
+</div>
+<script>
+function toggleDarkMode(){
+document.body.classList.toggle("dark-mode");
+}
+</script>
+</body>
+</html>
